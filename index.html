@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href= "style.css">
+    <meta charset="utf-8" />
+    <style>
+table,th,td
+{border-collapse:collapse;
+border:1px solid black
+}
+
+</style>
+  <title>Propriétés principales en CSS</title>
+  </head>
+  <body>
+    <h1>Propriétés principales en css</h1>
+    <h2>Propriétés</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Propriétés</th>
+      <th>Valeurs(exemples)</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+<tr>
+  <td>font-family</td>
+  <td>Nom de police</td>
+</tr>
+
+<tr>
+  <td>font-size</td>
+  <td>Taille du texte</td>
+</tr>
+
+<tr>
+  <td>font-weight</td>
+  <td>Valeurs:bold, normal</td>
+</tr>
+
+<tr>
+  <td>font-style</td>
+  <td>italic,oblique,normal</td>
+</tr>
+
+<tr>
+  <td>Text-decoration</td>
+  <td>	underline, overline, line-through, blink, none</td>
+  <td>Soulignement, ligne au-dessus, barré ou clignotant</td>
+</tr>
+
+<tr>
+  <td>font-variant</td>
+  <td>small-caps, normal</td>
+  <td>Petites capitales</td>
+</tr>
+
+<tr>
+  <td>text-align</td>
+  <td>left, center, right, justify</td>
+	<td>Alignement horizontal</td>
+</tr>
+
+<tr>
+  <td>vertical-align</td>
+  <td>baseline, middle, sub, super, top, bottom</td>
+  <td>	Alignement vertical (cellules de tableau ou éléments inline-block uniquement)</td>
+</tr>
+
+<tr>
+  <td>line-height</td>
+  <td>18px, 120%, normal...</td>
+	<td>Hauteur de ligne</td>
+</tr>
+
+<tr>
+  <td>text-shadow</td>
+  <td>5px 5px 2px blue
+    (horizontale, verticale, fondu, couleur)</td>
+  <td>	Ombre de texte</td>
+</tr>
+</table>
+
+<h2>Propriétés de couleur et de fond</h2>
+<table>
+  <thead>
+      <tr>
+        <th>Propriétés</th>
+        <th>Valeurs(exemples)</th>
+        <th>Description</th>
+      </tr>
+  </thead>
+    <tr>
+      <td>color</td>
+      <td>nom, rgb(rouge,vert,bleu), rgba(rouge,vert,bleu,transparence), #CF1A20...</td>
+	    <td>Couleur du texte</td></tr>
+    <tr>
+      <td>background-color</td>
+      <td>Identique à color</td>
+      <td>Couleur de fond</td>
+    </tr>
+    <tr>
+      <td>background-image</td>
+      <td>url('image.png')</td>
+      <td>Image de fond</td>
+    </tr>
+
+    <tr>
+      <td>background-attachment</td>
+      <td>fixed, scroll</td>
+      <td>Fond fixe</td>
+    </tr>
+    <tr>
+      <td>background-repeat</td>
+      <td>repeat-x, repeat-y, no-repeat, repeat</td>
+      <td>Répétition du fond</td>
+    </tr>
+
+    <tr>
+      <td>background-position</td>
+      <td>(x y), top, center, bottom, left, right</td>
+      <td>Position du fond</td>
+    </tr>
+
+    <tr>
+      <td>opacity</td>
+      <td>0.5</td>
+      <td>Transparence</td>
+    </tr>
+</table>
+
+<h2>Propriétés des boites</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Propriétés</th>
+      <th>Valeurs(exemples)</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+
+<tr>
+  <td>width</td>
+  <td>150px, 80%...</td>
+	<td>Largeur</td>
+</tr>
+
+<tr>
+  <td>height</td>
+  <td>150px, 80%...</td>
+  <td>Hauteur</td>
+</tr>
+
+<tr>
+  <td>min-width</td>
+  <td>150px, 80%...</td>
+  <td>Largeur minimale</td>
+</tr>
+
+<tr>
+  <td>max-width</td>
+  <td>150px, 80%...</td>
+  <td>Largeur maximale</td>
+</tr>
+
+<tr>
+  <td>min-height</td>
+  <td>150px, 80%...</td>
+<td>Hauteur minimale</td>
+</tr>
+
+<tr>
+  <td>max-height</td>
+  <td>150px, 80%...</td>
+  <td>Hauteur maximale</td>
+</tr>
+
+<tr>
+  <td>margin-top</td>
+  <td>23px</td>
+  <td>Marge en haut</td>
+</tr>
+
+<tr>
+  <td>margin-left</td>
+  <td>23px</td>
+  <td>Marge à gauche</td>
+</tr>
+
+<tr>
+  <td>margin-right</td>
+  <td>23px</td>
+  <td>Marge à droite</td>
+</tr>
+
+<tr>
+  <td>margin-bottom</td>
+  <td>23px</td>
+  <td>Marge en bas</td>
+</tr>
+
+
+<tr>
+  <td>padding-left</td>
+  <td>23px</td>
+  <td>Marge intérieure à gauche</td>
+</tr>
+
+<tr>
+  <td>padding-right</td>
+  <td>23px</td>
+  <td>Marge intérieure à droite</td>
+</tr>
+
+<tr>
+  <td>padding-bottom</td>
+  <td>23px</td>
+  <td>Marge intérieure en bas</td>
+</tr>
+
+<tr>
+  <td>padding-top</td>
+  <td>23px</td>
+  <td>Marge intérieure en haut</td>
+</tr>
+
+<tr>
+  <td>padding</td>
+  <td>23px 5px 23px 5px
+    (haut, droite, bas, gauche)</td>
+  <td>Super-propriété de marge intérieure.Combine : padding-top, padding-right, padding-bottom, padding-left.</td>
+</tr>
+
+<tr>
+  <td>border-width</td>
+  <td>3px</td>
+  <td>Épaisseur de bordure</td>
+</tr>
+
+<tr>
+  <td>border-color</td>
+  <td>nom, rgb(rouge,vert,bleu), rgba(rouge,vert,bleu,transparence), #CF1A20...</td>
+  <td>Couleur de bordure</td>
+</tr>
+
+<tr>
+  <td>border-style</td>
+  <td>solid, dotted, dashed, double, groove, ridge, inset, outset</td>
+  <td>Type de bordure</td>
+</tr>
+
+<tr>
+  <td>border</td>
+  <td>3px solid black</td>
+  <td>Super-propriété de bordure. Combine border-width, border-color, border-style.Existe aussi en version border-top, border-right, border-bottom, border-left.</td>
+</tr>
+
+<tr>
+  <td>border-radius</td>
+  <td>5px</td>
+  <td>Bordure arrondie</td>
+</tr>
+
+<tr>
+  <td>box-shadow</td>
+  <td>6px 6px 0px black (horizontale, verticale, fondu, couleur)</td>
+  <td>Ombre de boîte</td>
+</tr>
+</table>
+
+<h2>Propriétés de positionnement et d'affichage</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Propriétés</th>
+      <th>Valeurs(exemples)</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+<tr>
+  <td>display</td>
+  <td>block, inline, inline-block, table, table-cell, none...</td>
+  <td>Type d'élément (block, inline, inline-block, none…)</td>
+</tr>
+
+<tr>
+  <td>visibility</td>
+  <td>visible, hidden</td>
+  <td>Visibilité</td>
+</tr>
+
+<tr>
+  <td>clip</td>
+  <td>rect (0px, 60px, 30px, 0px) rect (haut, droite, bas, gauche)</td>
+  <td>Affichage d'une partie de l'élément</td>
+</tr>
+
+<tr>
+  <td>overflow</td>
+  <td>auto, scroll, visible, hidden</td>
+  <td>Comportement en cas de dépassement</td>
+</tr>
+
+<tr>
+  <td>float</td>
+  <td>left, right, none</td>
+  <td>Flottant</td>
+</tr>
+
+<tr>
+  <td>clear</td>
+  <td>left, right, both, none</td>
+  <td>Arrêt d'un flottant</td>
+</tr>
+
+<tr>
+  <td>position</td>
+  <td>relative, absolute, static</td>
+  <td>Positionnement</td>
+</tr>
+
+<tr>
+  <td>top</td>
+  <td>20px</td>
+  <td>Position par rapport au haut</td>
+</tr>
+
+<tr>
+  <td>bottom</td>
+  <td>20px</td>
+  <td>Position par rapport au bas</td>
+</tr>
+
+<tr>
+  <td>left</td>
+  <td>20px</td>
+  <td>Position par rapport à la gauche</td>
+</tr>
+
+<tr>
+  <td>right</td>
+  <td>20px</td>
+  <td>Position par rapport à la droite</td>
+</tr>
+
+<tr>
+  <td>z-index</td>
+  <td>10</td>
+  <td>Ordre d'affichage en cas de superposition. La plus grande valeur est affichée par-dessus les autres.</td>
+</tr>
+</table>
+
+<h2>Propriétés des tableaux</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Propriétés</th>
+      <th>Valeurs(exemples)</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+<tr>
+  <td>border-collapse</td>
+  <td>collapse, separate</td>
+  <td>Fusion des bordures</td>
+</tr>
+
+<tr>
+  <td>empty-cells</td>
+  <td>hide, show</td>
+  <td>Affichage des cellules vides</td>
+</tr>
+
+<tr>
+  <td>caption-side</td>
+  <td>bottom, top</td>
+  <td>Position du titre du tableau</td>
+</tr>
+
+
+</table>
+
+  </body>
+</html>
